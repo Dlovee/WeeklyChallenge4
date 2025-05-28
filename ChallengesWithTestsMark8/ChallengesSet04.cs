@@ -69,17 +69,5 @@ namespace ChallengesWithTestsMark8
 
             return number * Factorial(number - 1);
         }
-
-
-        public void NegativeFactorialShouldThrowArgumentOutOfRangeException()
-        {
-            // Arrange
-            ChallengesSet04 challenger = new ChallengesSet04();
-
-            // Define negative test inputs
-            int negative1 = -1;
-            int negative2 = -2;
-            int negative3 = -3;
-        }
     }
 }
